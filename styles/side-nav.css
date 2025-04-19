@@ -1,0 +1,45 @@
+.side-nav {
+    height: 800px;
+    width: 80px;
+    top: 70px;
+    left: 20px;
+    border-radius: 20px;
+    border: solid;
+    background-color: aliceblue;
+    position: fixed;
+    transition: 0.9s;
+    overflow: hidden;
+    display: grid;
+}
+
+.side-bar-item {
+    margin: 30px;
+    border: solid;
+    border-color: aliceblue;
+    cursor: pointer;
+    background-color: aliceblue;
+    display: none;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.side-nav:hover{
+    width: 200px;
+}
+
+.side-nav:hover .side-bar-item {
+    display: block;
+}
+
+.side-bar-item:hover {
+    background-color: rgb(205, 231, 253);
+    border-color: black;
+}
+
+.side-bar-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 55px;
+    text-align: center;
+    color: black;
+}
